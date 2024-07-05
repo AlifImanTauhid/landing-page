@@ -1,0 +1,284 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --color: white;
+  --color2: #333;
+}
+
+body,
+html {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+nav a {
+  text-decoration: none;
+  color: var(--color);
+}
+
+.header {
+  background-image: linear-gradient(
+    to left top,
+    rgb(235, 159, 28),
+    rgb(223, 11, 15) 45%
+  );
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  height: 60px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgb(223, 11, 15);
+  z-index: 10000;
+}
+
+.container {
+  max-width: 11000px;
+  padding: 0 7%;
+  margin: 0 auto;
+}
+
+.navbar > .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-between;
+  color: var(--color);
+}
+
+.logo {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.navbar > .container ul {
+  display: flex;
+}
+.navbar > .container li {
+  margin-right: 35px;
+}
+
+.navbar > .container ul li a {
+  font-size: large;
+  font-weight: 400;
+}
+
+.hero {
+  color: white;
+  display: flex;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 800;
+  line-height: 1.3;
+}
+
+.hero p {
+  margin-top: 15px;
+  font-size: 18px;
+}
+
+.hero .btn-1 {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 18px;
+  color: white;
+  background-color: rgb(228, 208, 29);
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.hero .btn-1:hover {
+  background-color: RGB(180, 197, 64);
+}
+
+.hero > .container {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  height: 70vh;
+}
+
+.hero img {
+  box-shadow: 15px 15px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+}
+
+.product {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 65px 7% 135px;
+}
+
+.product .container h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--color2);
+  /* padding: 50px 0 0; */
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 50px;
+  flex-wrap: wrap;
+}
+
+.fruit {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 7px 7px 20px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  flex: 1;
+}
+
+.products .fruit .card {
+  background-color: black;
+  height: 250px;
+  background-size: cover;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 10px;
+}
+
+.fruit:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.5 ease;
+}
+
+.fruit h3 {
+  padding: 6px 15px;
+}
+.fruit p {
+  padding: 15px;
+}
+
+.card-1 {
+  background-image: url(./images/apple.jpg);
+  background-position: -50px 0;
+  background-repeat: no-repeat;
+}
+.card-2 {
+  background-image: url(./images/grape.jpg);
+  background-position: -50px 0;
+  background-repeat: no-repeat;
+}
+.card-3 {
+  background-image: url(./images/orange.jpg);
+  background-position: -70px 0;
+  background-repeat: no-repeat;
+}
+.card-4 {
+  background-image: url(./images/strawberry.jpg);
+  background-position: -70px 0;
+  background-repeat: no-repeat;
+}
+
+.fruit a {
+  color: var(--color);
+  background-color: rgb(223, 11, 15);
+  display: block;
+  padding: 10px;
+  text-align: center;
+  margin: 20px 50px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+.products img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 100%;
+  width: 100%;
+  object-fit: contain cover;
+}
+
+.quotes {
+  padding: 65px 7% 65px;
+  background-color: #e6e6e6;
+  height: 80vh;
+}
+
+.quotes h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 800;
+  color: var(--color2);
+}
+
+.quotes p {
+  font-size: 36px;
+  font-weight: 400;
+  color: var(--color2);
+  font-style: italic;
+}
+
+.quotes p:nth-child(1) {
+  margin-top: 60px;
+}
+
+.quotes p:nth-child(2) {
+  margin-top: 30px;
+  text-align: right;
+}
+
+.call {
+  padding: 65px 7% 65px;
+}
+
+.action h3 {
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.action p {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.call > .container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  background-color: rgb(228, 208, 29);
+  color: var(--color);
+  padding: 50px 0;
+  border-radius: 20px;
+}
+.call > .container a {
+  align-self: center;
+  text-decoration: none;
+  border: 3px solid white;
+  padding: 10px 35px;
+  color: var(--color);
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.footer {
+  background-color: rgb(223, 11, 15);
+  color: var(--color);
+  padding: 25px;
+  font-size: 18px;
+  text-align: center;
+}
