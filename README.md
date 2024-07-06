@@ -1,5 +1,3 @@
-# landing_page
-
 Landing page web
 
 Credit.
