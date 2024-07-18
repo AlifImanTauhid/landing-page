@@ -1,4 +1,4 @@
-Landing page web
+Landing page web (not responsive yet)
 
 Credit.
 images By :
