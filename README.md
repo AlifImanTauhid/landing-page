@@ -7,9 +7,9 @@ Welcome to my first landing page project! This static website has been created u
 This project features a landing page designed with Flexbox to handle layout positioning and alignment. The page is styled with custom CSS, but it does not yet include responsive design adjustments. The primary aim is to practice using Flexbox for layout control and understand foundational web design concepts.
 Files Included
 
-  - index.html: The HTML file containing the structure and content of the landing page.
-  - styles.css: The CSS file used to style the landing page, utilizing Flexbox for layout.
-  - assets/: A directory containing image assets used on the page.
+  - `index.html`: The HTML file containing the structure and content of the landing page.
+  - `styles.css`: The CSS file used to style the landing page, utilizing Flexbox for layout.
+  - `assets/`: A directory containing image assets used on the page.
 
 ## Image Credits
 The images used in this project are sourced from the following providers:
